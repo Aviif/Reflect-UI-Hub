@@ -15,9 +15,15 @@ playerSection:NewSlider("Walkspeeed", "Changes your walkspeed from a value betwe
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-local scriptWindow = Window:NewTab(gameName)
-local scriptSection = scriptWindow:NewSection("Scripts for " .. gameName)
+local scriptGameWindow = Window:NewTab(gameName)
+local scriptGameSection = scriptGameWindow:NewSection("Scripts for " .. gameName)
+
+local scriptWindow = Window:NewTab("Scripts")
+local scriptSection = scriptWindow:NewSection("General scripts")
 scriptSection:NewButton("ESP", "Loads Unnamed ESP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Scripts/ESP.lua"))()
+end)
+scriptSection:NewButton("Dex", "Loads Unnamed Dark Dex", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Scripts/ESP.lua"))()
 end)
 
