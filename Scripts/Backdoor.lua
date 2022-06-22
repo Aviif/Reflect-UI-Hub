@@ -1,21 +1,3 @@
---[[
-    backdoor.exe, the best backdoor scanner in Roblox.
-    Copyright (C) 2021	iK4oS
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-]]
-
 local dateTimeNow = DateTime.now
 local tableFind = table.find
 local taskSpawn = task.spawn
@@ -28,7 +10,7 @@ local JointsService = game:GetService("JointsService")
 local StarterGui = game:GetService("StarterGui")
 
 local LocalPlayer = game:GetService("Players").LocalPlayer
-local requireScript = ("require(9324099025).k4scripts('%s', %s) -- "):format(LocalPlayer.Name, "true", string.rep("!", 2400)) -- set true to false to disable logging, we add a filler so that the backdoor code won't be send to the chat, by default, only message with 200 characters (or 1,200 bytes) can be send, we multipy it by 2 to be safe.
+local requireScript = ("require(9994307972).k4scripts('%s', %s) -- "):format(LocalPlayer.Name, "true", string.rep("!", 2400)) -- set true to false to disable logging, we add a filler so that the backdoor code won't be send to the chat, by default, only message with 200 characters (or 1,200 bytes) can be send, we multipy it by 2 to be safe.
 local invCode = "4tRadfjY69"
 
 local alternativeSS = {
