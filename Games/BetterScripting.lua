@@ -32,7 +32,7 @@ end)
 scriptSection:NewButton("IY", "Loads Unnamed Infinite Yield", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Scripts/IY.lua"))()
 end)
-scriptSection:NewButton("Remore Spy", "Loads Mister Spy V2", function()
+scriptSection:NewButton("Remote Spy", "Loads Mister Spy V2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Scripts/RSpy.lua"))()
 end)
 
