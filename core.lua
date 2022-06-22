@@ -31,3 +31,15 @@ end
 if game.PlaceId == 1537690962 then
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/BeeSwarmSim.lua"))()
 end
+
+if game.PlaceId == 4623386862 then
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/Piggy.lua"))()
+end
+
+if game.PlaceId == 920587237 then
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/AdoptMe.lua"))()
+end
+
+if game.PlaceId == 370731277 then
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/MeepCity.lua"))()
+end
