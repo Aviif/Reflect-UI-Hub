@@ -7,5 +7,5 @@ local colors = {
     TextColor = Color3.fromRGB(255,255,255),
     ElementColor = Color3.fromRGB(69, 69, 69)
 }
-local Window = Library.CreateLib("Reflect Hub - Welcome to Bloxburg", "Color")
+local Window = Library.CreateLib("Reflect Hub - Welcome to Bloxburg", colors)
 local playerSettings = Window:NewTab("Player Settings")

@@ -7,5 +7,5 @@ local colors = {
     TextColor = Color3.fromRGB(255,255,255),
     ElementColor = Color3.fromRGB(69, 69, 69)
 }
-local Window = Library.CreateLib("Reflect Hub - Murder Mystery 2", "Color")
+local Window = Library.CreateLib("Reflect Hub - Murder Mystery 2", colors)
 local playerSettings = Window:NewTab("Player Settings")
