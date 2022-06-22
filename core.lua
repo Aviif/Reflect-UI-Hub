@@ -19,3 +19,15 @@ end
 if game.PlaceId == 5265353117 then
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/BetterScripting.lua"))()
 end
+
+if game.PlaceId == 1458767429 then
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/ABA.lua"))()
+end
+
+if game.PlaceId == 2753915549 then
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/BloxFruits.lua"))()
+end
+
+if game.PlaceId == 1537690962 then
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/BeeSwarmSim.lua"))()
+end
