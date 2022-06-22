@@ -18,6 +18,9 @@ end)
 local scriptGameWindow = Window:NewTab(gameName)
 local scriptGameSection = scriptGameWindow:NewSection("Scripts for " .. gameName)
 
+local profileSettings = Window:NewTab("Profile Settings")
+local profileSection = profileSettings:NewSection("Here you can see infos about yourself")
+
 local scriptWindow = Window:NewTab("Scripts")
 local scriptSection = scriptWindow:NewSection("General scripts")
 scriptSection:NewButton("ESP", "Loads Unnamed ESP", function()
@@ -32,9 +35,6 @@ end)
 
 local gameSettings = Window:NewTab("Game Settings")
 local gameSection = gameSettings:NewSection("Here you can view and change game settings")
-
-local profileSettings = Window:NewTab("Profile Settings")
-local profileSection = profileSettings:NewSection("Here you can see infos about yourself")
 
 local colorPicker = Window:NewTab("Color Picker")
 local colorSection = colorPicker:NewSection("Here you can change the UI color")
