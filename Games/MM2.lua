@@ -1,4 +1,3 @@
---// Game ID = 5265353117
 local gameName = game:GetService('MarketplaceService'):GetProductInfo(game.PlaceId).Name
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local colors = {
@@ -9,6 +8,10 @@ local colors = {
     ElementColor = Color3.fromRGB(69, 69, 69)
 }
 local Window = Library.CreateLib("Reflect Hub - " .. gameName, colors)
+
+local profileSettings = Window:NewTab("Profile information")
+local profileSection = profileSettings:NewSection("Here you can see infos about yourself")
+
 local playerSettings = Window:NewTab("Player Settings")
 local playerSection = playerSettings:NewSection("Player Options")
 playerSection:NewSlider("Walkspeeed", "Changes your walkspeed from a value between 16 to 500.", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
@@ -33,8 +36,8 @@ end)
 local gameSettings = Window:NewTab("Game Settings")
 local gameSection = gameSettings:NewSection("Here you can view and change game settings")
 
-local profileSettings = Window:NewTab("Profile Settings")
-local profileSection = profileSettings:NewSection("Here you can see infos about yourself")
-
 local colorPicker = Window:NewTab("Color Picker")
 local colorSection = colorPicker:NewSection("Here you can change the UI color")
+
+local credits = Window:NewTab("Credits")
+local creditsSection = credits:NewSection("This for the different credits")

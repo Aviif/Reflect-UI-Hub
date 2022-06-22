@@ -1,4 +1,3 @@
---// Game ID = 5265353117
 local gameName = game:GetService('MarketplaceService'):GetProductInfo(game.PlaceId).Name
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local colors = {
@@ -10,7 +9,7 @@ local colors = {
 }
 local Window = Library.CreateLib("Reflect Hub - " .. gameName, colors)
 
-local profileSettings = Window:NewTab("Profile Settings")
+local profileSettings = Window:NewTab("Profile information")
 local profileSection = profileSettings:NewSection("Here you can see infos about yourself")
 
 local playerSettings = Window:NewTab("Player Settings")
