@@ -39,3 +39,6 @@ local gameSection = gameSettings:NewSection("Here you can view and change game s
 
 local colorPicker = Window:NewTab("Color Picker")
 local colorSection = colorPicker:NewSection("Here you can change the UI color")
+
+local credits = Window:NewTab("Credits")
+local creditsSection = credits:NewSection("This for the different credits")
