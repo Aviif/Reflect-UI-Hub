@@ -15,3 +15,7 @@ end
 if game.PlaceId == 142823291 then
     loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/MM2.lua'))()
 end
+
+if game.PlaceId == 5265353117 then
+    loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Games/Betterscripting.lua'))()
+end
