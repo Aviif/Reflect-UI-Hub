@@ -1,11 +1,11 @@
 local gameName = game:GetService('MarketplaceService'):GetProductInfo(game.PlaceId).Name
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local colors = {
-    SchemeColor = Color3.fromRGB(226, 0, 116),
-    Background = Color3.fromRGB(69, 69, 69),
+    SchemeColor = Color3.fromRGB(110, 110, 110),
+    Background = Color3.fromRGB(130, 130, 130),
     Header = Color3.fromRGB(69, 69, 69),
     TextColor = Color3.fromRGB(255,255,255),
-    ElementColor = Color3.fromRGB(69, 69, 69)
+    ElementColor = Color3.fromRGB(110, 110, 110)
 }
 local Window = Library.CreateLib("Reflect Hub - " .. gameName, colors)
 
