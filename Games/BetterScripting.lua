@@ -17,6 +17,9 @@ end)
 
 local scriptWindow = Window:NewTab(gameName)
 local scriptSection = scriptWindow:NewSection("Scripts for " .. gameName)
+scriptSection:NewButton("ESP", "Loads Unnamed ESP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))()
+end)
 
 local gameSettings = Window:NewTab("Game Settings")
 local gameSection = gameSettings:NewSection("Here you can view and change game settings")
