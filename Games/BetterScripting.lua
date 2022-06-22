@@ -24,7 +24,7 @@ scriptSection:NewButton("ESP", "Loads Unnamed ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Scripts/ESP.lua"))()
 end)
 scriptSection:NewButton("Dex", "Loads Unnamed Dark Dex", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Scripts/ESP.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Aviif/Reflect-UI-Hub/main/Scripts/Dex.lua"))()
 end)
 
 local gameSettings = Window:NewTab("Game Settings")
