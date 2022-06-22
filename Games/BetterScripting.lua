@@ -15,5 +15,5 @@ playerSection:NewSlider("Walkspeeed", "Changes your walkspeed from a value betwe
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-local scriptWindow = Window:NewTab(gameName .. " scripts")
+local scriptWindow = Window:NewTab(gameName)
 local scriptSection = scriptWindow:NewSection("Scripts for " .. gameName)
