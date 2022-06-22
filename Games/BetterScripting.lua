@@ -1,13 +1,7 @@
 --// Game ID = 5265353117
 local gameName = game:GetService('MarketplaceService'):GetProductInfo(game.PlaceId).Name
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local colors = {
-    SchemeColor = Color3.fromRGB(226, 0, 116),
-    Background = Color3.fromRGB(69, 69, 69),
-    Header = Color3.fromRGB(69, 69, 69),
-    TextColor = Color3.fromRGB(255,255,255),
-    ElementColor = Color3.fromRGB(69, 69, 69)
-}
+
 local Window = Library.CreateLib("Reflect Hub - " .. gameName, colors)
 local playerSettings = Window:NewTab("Player Settings")
 local playerSection = playerSettings:NewSection("Player Options")
@@ -17,3 +11,10 @@ end)
 
 local scriptWindow = Window:NewTab(gameName)
 local scriptSection = scriptWindow:NewSection("Scripts for " .. gameName)
+
+local colorPicker = Window:NewTab("Color Picker")
+local colorSection = colorPicker:NewSection("Here you can change the UI color")
+colorSection:NewColorPicker("Color Text", "Color Info", Color3.fromRGB(0,0,0), function(colors)
+    print(colors)
+    return colors
+end)
