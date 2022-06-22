@@ -10,7 +10,10 @@ local colors = {
 }
 local Window = Library.CreateLib("Reflect Hub - " .. gameName, colors)
 local playerSettings = Window:NewTab("Player Settings")
-local playerSection = playerSettings:NewSection("Section Name")
+local playerSection = playerSettings:NewSection("Player Options")
 playerSection:NewSlider("Walkspeeed", "Changes your walkspeed from a value between 16 to 500.", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
+
+local scriptWindow = Window:NewTab(gameName .. " scripts")
+local scriptSection = scriptWindow:NewSection("Scripts for " .. gameName)
