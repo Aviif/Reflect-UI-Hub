@@ -1,4 +1,4 @@
-local gameName = game:GetService('MarketplaceService'):GetProductInfo(game.PlaceId).Name
+local gameName = "Better Scripting"
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local colors = {
     SchemeColor = Color3.fromRGB(110, 110, 110),
